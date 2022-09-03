@@ -12,4 +12,11 @@ This is a comment
 print('hello, ', end='')
 print(name)
 
-print ('hello, ', name, sep='111')
+print ('hello, ', name, sep='')
+
+# \(escape char) actually in front of ' makes the 'friend' while we use all the time same quotation mark
+print('hello', '\'friend\'')
+
+# Final way(f str): f'...,{variable}'
+
+print(f'hello, {name}')
