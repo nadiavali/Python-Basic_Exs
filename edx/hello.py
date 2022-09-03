@@ -1,2 +1,3 @@
 name = input('What is your name?')
-print('hello, Nadia')
+print('hello,')
+print(name)
