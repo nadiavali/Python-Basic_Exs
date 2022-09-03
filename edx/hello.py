@@ -6,4 +6,10 @@ name = input('What is your name? ')
 This is a comment
 '''
 # ',' will automatically makes space and '+' does not!
-print('hello, ', name)
+# end='\n' means go to the next line which is default
+# end='' means do not break the line, instead concatenate the line with the next line
+
+print('hello, ', end='')
+print(name)
+
+print ('hello, ', name, sep='111')
