@@ -1,9 +1,9 @@
 # Ask user for their name
-name = input('What is your name?')
+name = input('What is your name? ')
 
 # Say hello to user
 '''
-Is a comment
+This is a comment
 '''
-print('hello,')
-print(name)
+# ',' will automatically makes space and '+' does not!
+print('hello, ', name)
