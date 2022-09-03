@@ -20,3 +20,36 @@ print('hello', '\'friend\'')
 # Final way(f str): f'...,{variable}'
 
 print(f'hello, {name}')
+
+
+
+name = input('What is your name? ')
+# Remove whitespace from str
+name = name.strip()
+ 
+# Capitalize user's name
+name = name.capitalize()
+print(f'hello, {name}')
+
+
+name = input('What is your name? ')
+# Remove whitespace from str
+name = name.strip()
+ 
+# Capitalize user's name and the all words
+name = name.title()
+print(f'hello, {name}')
+
+name = input('What is your name? ')
+# Remove whitespace from str and capitalize the str in the same time
+name = name.strip().title()
+ 
+
+print(f'hello, {name}')
+
+# this is the best all ,methods together and chain it into variable
+name = input('What is your name? ').strip().title()
+
+ 
+
+print(f'hello, {name}')
